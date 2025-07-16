@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 5px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 5px;
+    }
+    .box2 > img {
+        flex-basis: 20px;
+        width: 100%;
+        max-width: 500px;
+        
+        height: auto;
+        object-fit: contain;
+    }
+    .box7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 5px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 5px;
+    }
+    .down1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px; /* optional spacing between the two boxes */
+        padding: 40px 20px;
+       
+    }
+    
+    section.foot-section > .foot1,
+    section.foot-section > .foot2 {
+        flex-basis: 45%; 
+        display: flex;
+        align-items: center;
+        
+        gap: 20px;
+    }
